@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Dive Sites - Bhaccasyoniztas Beach Resort Website Template</title>
+	<title>{{{this.title}}}</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -14,13 +14,18 @@
 				<div class="box">
 					<div>
 						<div class="body">
-							<h1>Travel</h1>
+							<h1>Travel Details</h1>
 							<ul id="sites">
 								{{#each trips}}
 									<li>
 										<a href="/api/trips/{{this.code}}"><img src="images/{{this.image}}" alt="Img"></a>
-										<h2><a href="/travel/{{this.code}}">{{this.name}}</a></h2>
-										{{{this.description}}}
+										<h2><a href="/api/trips/{{this.code}}">{{this.name}}</a></h2>
+                                        <p>Code: {{{this.code}}}</p>
+                                        <p>Length: {{{this.length}}}</p>
+                                        <p>Start: {{{this.start}}}</p>
+                                        <p>Resort: {{{this.resort}}}</p>
+                                        <p>Per Person: {{{this.perPerson}}}</p>
+										<p>Description: {{{this.description}}}</p>
 									</li>
 								{{/each}}
 							</ul>
