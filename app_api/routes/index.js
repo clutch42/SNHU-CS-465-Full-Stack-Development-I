@@ -5,9 +5,11 @@ const tripsController = require('../controllers/trips');
 
 router
     .route('/trips')
-    .get(tripsController.tripList);
+    .get(tripsController.tripList)
+    .post(tripsController.tripsAddTrip);
 router
     .route('/trips/:tripCode')
-    .get(tripsController.tripsFindByCode);
+    .get(tripsController.tripsFindByCode)
+    .put(tripsController.tripsUpdateTrip);
 
 module.exports = router;
