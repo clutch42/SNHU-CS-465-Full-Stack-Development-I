@@ -48,7 +48,7 @@ app.use('/api', (req, res, next) => {
 });
  
 
-app.use('/index', indexRouter);
+app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/travel', travelRouter);
 app.use('/rooms', roomsRouter);
