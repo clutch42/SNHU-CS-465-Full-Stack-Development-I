@@ -8,7 +8,10 @@ How is JSON different from Javascript and how does JSON tie together the fronten
 JSON is a format used to represent data structures, and it is language-independent, meaning it can be utilized with different programming languages. While JSON's syntax is derived from JavaScript, it is not exclusive to JavaScript. It is commonly used in APIs to facilitate the exchange of information between the frontend and backend of applications, and JavaScript is one of the languages that can easily work with JSON data.
 
 Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.
+We used Handlebars to refactor some of the HTML, specifically the header and footer. It makes the code less prone to errors, shorter, and quicker to write. The cards for the trips were also refactored to inlude an array of trips of any length instead of three static cards.
 
 Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
+Testing a API with Postman is fairly easy without security. You just need to choose the request type and add a body if necessary. With security it is a bit more complicated. You have to add a valid authorization web token, and make sure it stays safe since you can use it can be used to access the web application.
 
 How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
+I really enjoyed this course. I had previous knowledge of just about all the tools used in the course, but this helped me tie them together. I have also used MVC architecture before, but this project was much needed practice.
