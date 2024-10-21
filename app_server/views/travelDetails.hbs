@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>{{{this.title}}}</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="/css/style.css" type="text/css">
 </head>
 <body>
 	<div id="background">
@@ -18,7 +18,7 @@
 							<ul id="sites">
 								{{#each trips}}
 									<li>
-										<a href="/api/trips/{{this.code}}"><img src="images/{{this.image}}" alt="Img"></a>
+										<a href="/api/trips/{{this.code}}"><img src="/images/{{this.image}}" alt="Img"></a>
 										<h2><a href="/api/trips/{{this.code}}">{{this.name}}</a></h2>
                                         <p>Code: {{{this.code}}}</p>
                                         <p>Length: {{{this.length}}}</p>
