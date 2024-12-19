@@ -1,3 +1,17 @@
+# CS-465-Full-Stack-Development-I
+## Course Description
+Students will design and develop a full stack application through the utilization of programming 
+language frameworks. In creating a full stack application, students will also be responsible for 
+developing a database as well as the code that interfaces their application to the database. This 
+course is the first course in a two-course sequence.
+## Course Competencies
+This course covers the following competencies, which represent the knowledge and skills 
+relevant to your field:
+- CS-30427: Design the architecture of a web application
+- CS-40428: Build a web application using frameworks
+- CS-40429: Develop and integrate a database using frameworks
+
+## Project
 Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
 We used Express HTML instead of traditional HTML for the customer facing web page. This allowed us to dynamically render the page with trips that we fetched from the MongoDB database. We used Handlebars as a template to help in creating the HTML. We used Angular to implement the SPA since it can dynamically render content and does not require a reload or refresh in the browser. We used Node.js for the javascript and used it on both the front and back end.
 
